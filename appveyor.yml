@@ -30,7 +30,7 @@ install:
         pip install --disable-pip-version-check --user --upgrade pip
 
         # install/upgrade setuptools and wheel to build packages
-        pip install --upgrade setuptools wheel
+        pip install --upgrade setuptools==25.1.1 wheel
       }
 
 before_build:
